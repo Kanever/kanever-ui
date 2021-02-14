@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+/*
+#FFD029 - yellow lines
+#EDEDED - light gray lines
+#DCDBD6 - light gray percentage bar
+#000000 - black text
+#939191 - gray text
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Varela', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
