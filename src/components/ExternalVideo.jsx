@@ -7,8 +7,6 @@ function ExternalVideo({ src }) {
       CISCO
       <div className='video'>
         <iframe
-          width='448'
-          height='252'
           src={src}
           frameBorder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

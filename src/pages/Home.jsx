@@ -6,10 +6,10 @@ function Home() {
   return (
     <section id='home' className='home'>
       <h1>KANEVER</h1>
-      <KaneverLogo />
+      <KaneverLogo className='logo' />
       <div>
         <HomeOption text='SOBRE' redirectToId='about'/>
-        <HomeOption text='PORTFOLIO' redirectToId='portfolio'/>
+        <HomeOption text='PORTF&Oacute;LIO' redirectToId='portfolio'/>
         <HomeOption text='CONTATO' redirectToId='contact'/>
       </div>
     </section>

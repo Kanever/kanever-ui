@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <section id='portfolio'>
       <div className='content-wrap'>
-        <h1>PORTFÓLIO</h1>
+        <h1>PORTF&Oacute;LIO</h1>
         <ExternalVideos />
       </div>
     </section>
