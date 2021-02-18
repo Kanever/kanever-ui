@@ -1,4 +1,9 @@
 a.home-option {
-  color: inherit;
+  color: #1A1A1A;
   text-decoration: inherit;
+  display: flex;
+
+  svg {
+    padding: 2px 5px 0 0;
+  }
 }
