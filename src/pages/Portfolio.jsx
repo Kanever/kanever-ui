@@ -3,7 +3,7 @@ import './Portfolio.scss'
 
 function Portfolio() {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' className='portfolio'>
       <div className='content-wrap'>
         <h1>PORTF&Oacute;LIO</h1>
         <ExternalVideos />

@@ -1,7 +1,26 @@
 .bordered-text-box {
   color: #939191;
-  max-width: 400px;
+  max-width: 427px;
+  min-height: 100px;
   padding: 20px;
+  padding-bottom: 0;
   border: 5px solid #FFD029;
   margin: -5px 0 0 -5px;
+
+  div {
+    border: 5px solid #EDEDED;
+    padding: 8px 70px 35px 8px;
+    min-height: 100px;
+    margin: -5px -50px -20px -5px;
+    p {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 705px) {
+    div {
+      margin-right: 0;
+      padding-right: 0;
+    }
+  }
 }

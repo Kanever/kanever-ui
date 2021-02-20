@@ -6,7 +6,11 @@ function BorderedTextBox({ text, width, height }) {
     height
   }
   return (
-    <div className='bordered-text-box' style={customStyle}>{text}</div>
+    <div className='bordered-text-box' style={customStyle}>
+      <div>
+        <p>{text}</p>
+      </div>
+    </div>
   )
 }
 
