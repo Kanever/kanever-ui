@@ -1,24 +1,25 @@
 import Polygon from '../components/Polygon'
 import BorderedTextBox from '../components/BorderedTextBox'
+import ProgressIndicator from '../components/ProgressIndicator'
 import './About.scss'
 
 function About() {
   return (
     <section id='about' className='about'>
-      <div>
+      <div className='main-about'>
         <div className='title'>
           <span />
           <Polygon isSideSquare />
           <h1>SOBRE</h1>
         </div>
-        <div className='main-about'>
+        <div className='description'>
           <BorderedTextBox text='Olá! Sou Marcelo Canever, Freelancer, Motion Designer, ilustrador, diretor e coordenador de projetos audiovisuais.' />
           <div className='secondary-text'>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conhecimentos em produção audio visuais e peças gráficas, desde as primeiras etapas de conceituais até a finalização do material.</p>
             <p>Roteiro, Storyboard, Animatics, Concept Arts, Identidade Visual, Animação Tradicional, Motion Graphic, Edição, Pós-Produção, Edição de Audio/Sound effects.</p>
           </div>
         </div>
-        <div className='knowledge-wrapper'>
+        <div className='knowledge-title'>
           <span />
           <div>
             <Polygon isSideSquare />
@@ -28,8 +29,13 @@ function About() {
         </div>
       </div>
       <span />
-      <div className=''>
-
+      <div className='knowledge-wrapper'>
+        <div>
+          <ProgressIndicator percentage={92} title={'AFTER EFFECTS'} />
+          <ProgressIndicator percentage={85} title={'PREMIERE'} />
+          <ProgressIndicator percentage={96} title={'PHOTOSHOP'} />
+          <ProgressIndicator percentage={70} title={'ILLUSTRATOR'} />
+        </div>
       </div>
     </section>
   )
