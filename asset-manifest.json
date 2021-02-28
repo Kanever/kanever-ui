@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kanever-ui/static/css/main.97b2a0c9.chunk.css",
-    "main.js": "/kanever-ui/static/js/main.5f040959.chunk.js",
-    "main.js.map": "/kanever-ui/static/js/main.5f040959.chunk.js.map",
+    "main.css": "/kanever-ui/static/css/main.00ff2d8f.chunk.css",
+    "main.js": "/kanever-ui/static/js/main.b5e4bf0a.chunk.js",
+    "main.js.map": "/kanever-ui/static/js/main.b5e4bf0a.chunk.js.map",
     "runtime-main.js": "/kanever-ui/static/js/runtime-main.d28cc780.js",
     "runtime-main.js.map": "/kanever-ui/static/js/runtime-main.d28cc780.js.map",
-    "static/js/2.5ca5e21f.chunk.js": "/kanever-ui/static/js/2.5ca5e21f.chunk.js",
-    "static/js/2.5ca5e21f.chunk.js.map": "/kanever-ui/static/js/2.5ca5e21f.chunk.js.map",
+    "static/js/2.291e1227.chunk.js": "/kanever-ui/static/js/2.291e1227.chunk.js",
+    "static/js/2.291e1227.chunk.js.map": "/kanever-ui/static/js/2.291e1227.chunk.js.map",
     "index.html": "/kanever-ui/index.html",
-    "static/css/main.97b2a0c9.chunk.css.map": "/kanever-ui/static/css/main.97b2a0c9.chunk.css.map",
-    "static/js/2.5ca5e21f.chunk.js.LICENSE.txt": "/kanever-ui/static/js/2.5ca5e21f.chunk.js.LICENSE.txt"
+    "static/css/main.00ff2d8f.chunk.css.map": "/kanever-ui/static/css/main.00ff2d8f.chunk.css.map",
+    "static/js/2.291e1227.chunk.js.LICENSE.txt": "/kanever-ui/static/js/2.291e1227.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d28cc780.js",
-    "static/js/2.5ca5e21f.chunk.js",
-    "static/css/main.97b2a0c9.chunk.css",
-    "static/js/main.5f040959.chunk.js"
+    "static/js/2.291e1227.chunk.js",
+    "static/css/main.00ff2d8f.chunk.css",
+    "static/js/main.b5e4bf0a.chunk.js"
   ]
 }
