@@ -1,0 +1,30 @@
+.more-button {
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    color: #939191;
+    font-size: 11px;
+  
+    .polygon:first-of-type {
+      margin: -6px 0 0 -2px;
+    }
+    .polygon:last-of-type {
+      margin: -6px -2px 0 0;
+    }
+  
+    span {
+      border-top: 4px solid #EDEDED;
+      flex: 1;
+    }
+  
+    button {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      padding: 0 30px;
+    }
+  }

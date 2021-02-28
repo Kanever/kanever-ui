@@ -1,13 +1,13 @@
 import './ExternalVideo.scss'
 
-function ExternalVideo({ src }) {
+function ExternalVideo({ video = {} }) {
   // default width and height: 560x315. It was reduced by 0.8
   return (
     <div>
-      CISCO
-      <div className='video'>
+      {video.title}
+      <div className='video-iframe'>
         <iframe
-          src={src}
+          src={video.src}
           frameBorder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen>

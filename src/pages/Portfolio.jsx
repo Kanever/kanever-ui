@@ -1,5 +1,6 @@
 import ExternalVideos from '../components/ExternalVideos'
 import Polygon from '../components/Polygon'
+import Illustrations from '../components/Illustrations'
 import './Portfolio.scss'
 
 function Portfolio() {
@@ -15,32 +16,15 @@ function Portfolio() {
         VIDEOS&nbsp;/&nbsp;AUDIOVISUAL
         <Polygon isSideSquare />
       </div>
-      <div className='video-filter'>
-        <span>FILTRO</span><span />
-        <ul>
-          <li>
-            <span />
-            <Polygon color='#DCDBD6' />
-            MOTION GRAPHICS
-          </li>
-          <li>
-            <span />
-            <Polygon color='#DCDBD6' />
-            WHITEBOARD
-          </li>
-          <li>
-            <span />
-            <Polygon color='#DCDBD6' />
-            MOTION GRAPHICS
-          </li>
-        </ul>
-        <div className='portfolio-description'>
-          <p>Confira alguns dos melhores e mais recentes trabalhos produzidos por mim, com parcerias e participações de outros profissionais e produtoras</p>
-        </div>
-        <span />
+      <div className='videos-subsection'>
+        <ExternalVideos />
       </div>
-      <span />
-      <ExternalVideos />
+      <div className='illustrations'>
+        <div className='illustrations-title'>
+          ILLUSTRACOES
+        </div>
+        <Illustrations />
+      </div>
     </section>
   )
 }

@@ -1,5 +1,6 @@
-.video {
+.video-iframe {
   border: 4px solid #FFD029;
+  max-width: 297px;
 
   iframe {
     margin-bottom: -30px;
@@ -8,9 +9,14 @@
   }
 }
 
-@media (min-width: 515px) {
-  iframe {
-    width: 448px;
-    height: 252px;
+
+@media (min-width: 545px) {
+  .video-iframe {
+    max-width: 448px;
+
+    iframe {
+      width: 448px;
+      height: 252px;
+    }
   }
 }
