@@ -37,8 +37,9 @@ function Portfolio() {
         <div className='portfolio-description'>
           <p>Confira alguns dos melhores e mais recentes trabalhos produzidos por mim, com parcerias e participações de outros profissionais e produtoras</p>
         </div>
+        <span />
       </div>
-      <span/>
+      <span />
       <ExternalVideos />
     </section>
   )

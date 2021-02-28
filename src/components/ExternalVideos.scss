@@ -2,5 +2,40 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.external-videos > * {
+  margin: 30px 0 0 30px;
+}
+
+.more-videos {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  color: #939191;
+  font-size: 11px;
+
+  .polygon:first-of-type {
+    margin: -5px 30px 0 -2px;
+  }
+  .polygon:last-of-type {
+    margin: -5px -2px 0 30px;
+  }
+
+  span {
+    border-top: 4px solid #EDEDED;
+    flex: 1;
+  }
+
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
 }
