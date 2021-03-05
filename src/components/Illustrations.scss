@@ -1,0 +1,14 @@
+.illustrations-wrapper {
+  >div {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 515px) {
+  .illustrations-wrapper a img {
+    max-width: 350px;
+  }
+}

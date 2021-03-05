@@ -12,6 +12,7 @@ function ExternalVideos() {
     [VIDEO_TYPES.WHITEBOARD]: false,
     [VIDEO_TYPES.EDITIONS]: false
   })
+
   function getVideos() {
     let filteredVideos = videos
     if (Object.values(videoTypesHash).indexOf(true) > -1)

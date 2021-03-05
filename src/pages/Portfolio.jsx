@@ -1,6 +1,7 @@
 import ExternalVideos from '../components/ExternalVideos'
 import Polygon from '../components/Polygon'
 import Illustrations from '../components/Illustrations'
+import BorderedTextBox from '../components/BorderedTextBox'
 import './Portfolio.scss'
 
 function Portfolio() {
@@ -21,7 +22,15 @@ function Portfolio() {
       </div>
       <div className='illustrations'>
         <div className='illustrations-title'>
-          ILLUSTRACOES
+          <div className='illustrations-title-left'>
+            <span/>
+            <Polygon isSideSquare/>
+            ILLUSTRACOES
+          </div>
+          <BorderedTextBox
+            text='Veja minha galeria de concept art, estudos, entre outros materiais de design gráfico.'
+          />
+          <span/>
         </div>
         <Illustrations />
       </div>

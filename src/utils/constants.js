@@ -39,3 +39,46 @@ export const videos = [
   { title: 'Tosko Nubando com o Mini-z', src: 'https://www.youtube.com/embed/Ev8vzQA9cjk', type: VIDEO_TYPES.EDITIONS },
   { title: 'Tosko Nubando com o Mini-z', src: 'https://www.youtube.com/embed/Ev8vzQA9cjk', type: VIDEO_TYPES.EDITIONS }
 ]
+
+export const images = [
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  },
+  {
+    full: require('../images/full.jpg').default,
+    thumb: require('../images/full_tn.jpg').default,
+    alt: 'Marcelo'
+  }
+]

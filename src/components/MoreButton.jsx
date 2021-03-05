@@ -5,9 +5,9 @@ function MoreButton({ text, onClick = () => alert('Comming soon ;)!') }) {
   return (
     <div className='more-button'>
       <span />
-      <Polygon isSideSquare color='#EDEDED' />
+      <Polygon isSideSquare color='#DCDBD6' />
       <button type='button' onClick={onClick}>{text}</button>
-      <Polygon isSideSquare color='#EDEDED' />
+      <Polygon isSideSquare color='#DCDBD6' />
       <span />
     </div>
   )

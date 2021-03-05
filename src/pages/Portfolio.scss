@@ -48,6 +48,33 @@
     padding-right: 24.8%;
     margin-bottom: 10px;
   }
+
+  .illustrations-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+    .illustrations-title-left {
+      display: flex;
+      min-width: 46%;
+      align-items: center;
+      height: 146px;
+      border-bottom: 4px solid #FFD029;
+
+      span {
+        border-top: 4px solid #FFD029;
+        min-width: 65%;
+      }
+      .polygon {
+        margin: -5px 15px 0 -2px;
+      }
+    }
+
+    >span {
+      border-top: 4px solid #EDEDED;
+      flex: 1;
+    }
+  }
 }
 
 @media (max-width: 450px) {
