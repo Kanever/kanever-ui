@@ -3,16 +3,16 @@
   flex-direction: column;
 
   .main-about {
-    padding-left: 25%;
+    padding-left: 27%;
 
     .title {
       display: flex;
-      
+      padding-bottom: 12px;
+
       > span {
         align-self: flex-end;
-        height: 15px;
-        margin-right: -12px;
-        margin-left: 12px;
+        height: 24px;
+        margin: 0 -12px -12px 12px;
         border-left: 4px solid #FFD029;
       }
       >.polygon {

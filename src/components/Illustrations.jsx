@@ -6,14 +6,7 @@ import { images } from '../utils/constants'
 import './Illustrations.scss'
 
 function Illustrations() {
-  const [nImages, setNImages] = useState(8)
-  const options = {
-    // settings: {},
-    // caption: {},
-    // buttons: {},
-    // thumbnails: {},
-    // progressBar:{}
-  }
+  const [nImages, setNImages] = useState(4)
 
   function getImages() {
     return images
@@ -22,13 +15,15 @@ function Illustrations() {
   }
 
   function handleClick() {
-    setNImages(nImages + 4)
+    nImages >= images.length
+      ? alert('Sem mais imagens disponíveis!')
+      : setNImages(nImages + 4)
   }
 
   return (
     <>
       <div className='illustrations-wrapper'>
-        <SRLWrapper options={options}>
+        <SRLWrapper>
           {getImages()}
         </SRLWrapper>
       </div>

@@ -28,10 +28,7 @@
   }
 
   .title {
-    display: flex;
-    align-items: center;
     justify-content: flex-end;
-
     >span {
       border-bottom: 4px solid #FFD029;
       flex-grow: 1;
@@ -42,22 +39,16 @@
   }
 
   .subtitle {
-    display: flex;
-    align-items: center;
     justify-content: flex-end;
     padding-right: 24.8%;
     margin-bottom: 10px;
   }
 
   .illustrations-title {
-    display: flex;
-    align-items: center;
     margin-bottom: 80px;
 
     .illustrations-title-left {
-      display: flex;
       min-width: 46%;
-      align-items: center;
       height: 146px;
       border-bottom: 4px solid #FFD029;
 

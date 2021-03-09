@@ -1,0 +1,68 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  >div:first-of-type {
+    padding-left: 27%;
+    .contact-title {
+      display: flex;
+      padding-bottom: 12px;
+      >.polygon {
+        margin-right: 5px;
+        margin-left: -5px;
+      }
+    }
+    .contact-description {
+      border-left: 4px solid #FFD029;
+      border-top: 4px solid #FFD029;
+      margin-left: 10px;
+    }
+  }
+
+  .contact-filter {
+    display: flex;
+    .contact-filter-left {
+      flex: 1;
+      >span:nth-of-type(1) {
+        border-bottom: 4px solid #DCDBD6;
+        color: #939191;
+        margin-top: -11px;
+        margin-bottom: 11px;
+        text-indent: 65%;
+        min-width: 100px;
+        flex: 1;
+      }
+      >span:nth-of-type(2) {
+        border-left: 4px solid #DCDBD6;
+        height: 102px;
+      }
+      & ul {
+        padding: 0;
+        list-style-type: none;
+        z-index: 1;
+        >li {
+          display: flex;
+          align-items: center;
+          padding: 5px 0;
+          >span {
+            border-bottom: 4px solid #DCDBD6;
+            min-width: 40px;
+            margin-right: -4px;
+          }
+          >.polygon svg {
+            padding-top: 4px;
+            padding-right: 5px;
+          }
+        }    
+      }
+    }
+  }
+
+  > span {
+    border: 4px solid #FFD029;
+    border-right: none;
+    align-self: flex-end;
+    width: 390px;
+    min-height: 154px;
+    margin-top: -173px;
+  }
+}

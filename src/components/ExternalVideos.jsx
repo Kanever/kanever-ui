@@ -23,7 +23,9 @@ function ExternalVideos() {
   }
 
   function handleClick() {
-    setNVideos(nVideos + 3)
+    nVideos >= videos.length
+    ? alert('Sem mais videos disponíveis!')
+    : setNVideos(nVideos + 3)
   }
 
   function handleListClick(index) {
@@ -38,7 +40,7 @@ function ExternalVideos() {
   return (
     <div className='external-videos'>
       <div className='video-filter'>
-        <div className='video-filter-left'>
+        <div className='flex-center video-filter-left'>
           <span>FILTRO</span><span />
           <ul>
             <li onClick={() => handleListClick(VIDEO_TYPES.MOTION_GRAPHICS)}>
@@ -58,13 +60,12 @@ function ExternalVideos() {
             </li>
           </ul>
         </div>
-        <div className='video-filter-right'>
+        <div className='video-filter-right flex-center'>
           <div className='portfolio-description'>
             <p>Confira alguns dos melhores e mais recentes trabalhos produzidos por mim, com parcerias e participações de outros profissionais e produtoras</p>
           </div>
           <span />
         </div>
-
       </div>
       <span />
       <div className='videos'>

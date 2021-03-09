@@ -4,7 +4,7 @@ import './Home.scss'
 
 function Home() {
   return (
-    <section id='home' className='home'>
+    <section id='home' className='flex-center home'>
       <h1>KANEVER</h1>
       <KaneverLogo className='logo' />
       <div>

@@ -3,7 +3,7 @@ import './MoreButton.scss'
 
 function MoreButton({ text, onClick = () => alert('Comming soon ;)!') }) {
   return (
-    <div className='more-button'>
+    <div className='flex-center more-button'>
       <span />
       <Polygon isSideSquare color='#DCDBD6' />
       <button type='button' onClick={onClick}>{text}</button>

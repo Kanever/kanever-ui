@@ -8,12 +8,12 @@ function Portfolio() {
   return (
     <section id='portfolio' className='portfolio'>
       <div><span /><span /></div>
-      <div className='title'>
+      <div className='flex-center title'>
         <h1>PORTF&Oacute;LIO</h1>
         <Polygon isSideSquare />
         <span />
       </div>
-      <div className='subtitle'>
+      <div className='flex-center subtitle'>
         VIDEOS&nbsp;/&nbsp;AUDIOVISUAL
         <Polygon isSideSquare />
       </div>
@@ -21,11 +21,11 @@ function Portfolio() {
         <ExternalVideos />
       </div>
       <div className='illustrations'>
-        <div className='illustrations-title'>
-          <div className='illustrations-title-left'>
+        <div className='flex-center illustrations-title'>
+          <div className='flex-center illustrations-title-left'>
             <span/>
             <Polygon isSideSquare/>
-            ILLUSTRACOES
+            ILUSTRA&Ccedil;&Otilde;ES
           </div>
           <BorderedTextBox
             text='Veja minha galeria de concept art, estudos, entre outros materiais de design gráfico.'
