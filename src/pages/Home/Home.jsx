@@ -1,5 +1,5 @@
-import HomeOption from '../components/HomeOption'
-import KaneverLogo from '../components/KaneverLogo'
+import HomeOption from '../../components/HomeOption/HomeOption'
+import KaneverLogo from '../../components/KaneverLogo/KaneverLogo'
 import './Home.scss'
 
 function Home() {

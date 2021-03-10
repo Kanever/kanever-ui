@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import ExternalVideo from './ExternalVideo'
-import Polygon from './Polygon'
-import MoreButton from './MoreButton'
-import { VIDEO_TYPES, videos } from '../utils/constants'
+import ExternalVideo from '../ExternalVideo/ExternalVideo'
+import Polygon from '../Polygon/Polygon'
+import MoreButton from '../MoreButton/MoreButton'
+import { VIDEO_TYPES, videos } from '../../utils/constants'
 import './ExternalVideos.scss'
 
 function ExternalVideos() {

@@ -1,8 +1,8 @@
 import { BsEnvelope } from 'react-icons/bs'
 import { FiPhone } from 'react-icons/fi'
 import { FaInstagram } from 'react-icons/fa'
-import Polygon from "../components/Polygon"
-import BorderedTextBox from "../components/BorderedTextBox";
+import Polygon from "../../components/Polygon/Polygon"
+import BorderedTextBox from "../../components/BorderedTextBox/BorderedTextBox";
 import './Contact.scss'
 
 function Contact() {

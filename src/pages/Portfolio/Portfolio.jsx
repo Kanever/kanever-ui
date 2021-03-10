@@ -1,7 +1,7 @@
-import ExternalVideos from '../components/ExternalVideos'
-import Polygon from '../components/Polygon'
-import Illustrations from '../components/Illustrations'
-import BorderedTextBox from '../components/BorderedTextBox'
+import ExternalVideos from '../../components/ExternalVideos/ExternalVideos'
+import Polygon from '../../components/Polygon/Polygon'
+import Illustrations from '../../components/Illustrations/Illustrations'
+import BorderedTextBox from '../../components/BorderedTextBox/BorderedTextBox'
 import './Portfolio.scss'
 
 function Portfolio() {

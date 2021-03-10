@@ -1,4 +1,4 @@
-import Polygon from '../components/Polygon'
+import Polygon from '../Polygon/Polygon'
 import './MoreButton.scss'
 
 function MoreButton({ text, onClick = () => alert('Comming soon ;)!') }) {

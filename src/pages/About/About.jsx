@@ -1,6 +1,6 @@
-import Polygon from '../components/Polygon'
-import BorderedTextBox from '../components/BorderedTextBox'
-import ProgressIndicator from '../components/ProgressIndicator'
+import Polygon from '../../components/Polygon/Polygon'
+import BorderedTextBox from '../../components/BorderedTextBox/BorderedTextBox'
+import ProgressIndicator from '../../components/ProgressIndicator/ProgressIndicator'
 import './About.scss'
 
 function About() {
