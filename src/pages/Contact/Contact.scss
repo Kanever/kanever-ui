@@ -21,6 +21,7 @@
   .contact-filter {
     display: flex;
     .contact-filter-left {
+      margin-top: -27px;
       flex: 1;
       >span:nth-of-type(1) {
         border-bottom: 4px solid #DCDBD6;
@@ -64,5 +65,29 @@
     width: 390px;
     min-height: 154px;
     margin-top: -173px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contact {
+    .contact-filter {
+      .contact-filter-left {
+        > span:nth-of-type(1) {
+          text-indent: 0%;
+          text-align: center;
+          min-width: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact {
+    .contact-filter {
+      .contact-filter-left {
+        margin-top: 30px;
+      }
+    }
   }
 }
