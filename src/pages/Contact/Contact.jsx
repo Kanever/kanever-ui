@@ -3,6 +3,7 @@ import { FiPhone } from 'react-icons/fi'
 import { FaInstagram } from 'react-icons/fa'
 import Polygon from "../../components/Polygon/Polygon"
 import BorderedTextBox from "../../components/BorderedTextBox/BorderedTextBox";
+import { TEXT } from '../../utils/constants'
 import './Contact.scss'
 
 function Contact() {
@@ -11,16 +12,17 @@ function Contact() {
       <div>
         <div className='contact-title'>
           <Polygon isSideSquare />
-          <h1>CONTATO</h1>
+          <h1>{TEXT.CONTACT}</h1>
           <span />
         </div>
         <div className='contact-description'>
-          <BorderedTextBox text='Olá! Sou Marcelo Canever, Freelancer, Motion Designer, ilustrador, diretor e coordenador de projetos audiovisuais.' />
+          <BorderedTextBox
+            text={TEXT.CNT1} />
         </div>
       </div>
       <div className='contact-filter'>
         <div className='flex-center contact-filter-left'>
-          <span>INFORMA&Ccedil;&Otilde;ES</span>
+          <span>{TEXT.INFORMATION}</span>
           <span />
           <ul>
             <li>
@@ -28,7 +30,7 @@ function Contact() {
               <Polygon color='#DCDBD6' />
               <div className='flex-center work-breaka-all'>
                 <BsEnvelope />
-                contato.marcelo.canever@gmail.com
+                {TEXT.KAN_EMAIL}
               </div>
             </li>
             <li>
@@ -36,7 +38,7 @@ function Contact() {
               <Polygon color='#DCDBD6' />
               <div className='flex-center'>
                 <FiPhone />
-                (11) 9 9890-4435
+                {TEXT.KAN_PHONE}
               </div>
             </li>
             <li>
@@ -44,7 +46,7 @@ function Contact() {
               <Polygon color='#DCDBD6' />
               <div className='flex-center'>
                 <FaInstagram />
-                @follow.kanever
+                {TEXT.KAN_INSTA}
               </div>
             </li>
           </ul>

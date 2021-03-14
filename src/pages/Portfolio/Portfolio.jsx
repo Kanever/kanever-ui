@@ -2,6 +2,7 @@ import ExternalVideos from '../../components/ExternalVideos/ExternalVideos'
 import Polygon from '../../components/Polygon/Polygon'
 import Illustrations from '../../components/Illustrations/Illustrations'
 import BorderedTextBox from '../../components/BorderedTextBox/BorderedTextBox'
+import { TEXT } from '../../utils/constants'
 import './Portfolio.scss'
 
 function Portfolio() {
@@ -9,12 +10,12 @@ function Portfolio() {
     <section id='portfolio' className='portfolio'>
       <div><span /><span /></div>
       <div className='flex-center title'>
-        <h1>PORTF&Oacute;LIO</h1>
+        <h1>{TEXT.PORTFOLIO}</h1>
         <Polygon isSideSquare />
         <span />
       </div>
       <div className='flex-center subtitle'>
-        VIDEOS&nbsp;/&nbsp;AUDIOVISUAL
+        {TEXT.PORTFOLIO_SUBTITLE}
         <Polygon isSideSquare />
       </div>
       <div className='videos-subsection'>
@@ -25,11 +26,9 @@ function Portfolio() {
           <div className='flex-center illustrations-title-left'>
             <span/>
             <Polygon isSideSquare/>
-            ILUSTRA&Ccedil;&Otilde;ES
+            {TEXT.ILLUSTRATIONS}
           </div>
-          <BorderedTextBox
-            text='Veja minha galeria de concept art, estudos, entre outros materiais de design gráfico.'
-          />
+          <BorderedTextBox text={TEXT.ILU1} />
           <span/>
         </div>
         <Illustrations />

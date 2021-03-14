@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { SRLWrapper } from 'simple-react-lightbox'
 import MoreButton from '../MoreButton/MoreButton'
 import Illustration from './Illustration'
-import { images } from '../../utils/constants'
+import { images, TEXT } from '../../utils/constants'
 import './Illustrations.scss'
 
 function Illustrations() {
@@ -27,7 +27,7 @@ function Illustrations() {
           {getImages()}
         </SRLWrapper>
       </div>
-      <MoreButton text='MAIS ILUSTRAS' onClick={handleClick} />
+      <MoreButton text={TEXT.MORE_ILLUSTRATIONS} onClick={handleClick} />
     </>
   )
 }

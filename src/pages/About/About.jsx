@@ -1,6 +1,8 @@
 import Polygon from '../../components/Polygon/Polygon'
 import BorderedTextBox from '../../components/BorderedTextBox/BorderedTextBox'
 import ProgressIndicator from '../../components/ProgressIndicator/ProgressIndicator'
+import Experience from './Experience/Experience'
+import { TEXT } from '../../utils/constants'
 import './About.scss'
 
 function About() {
@@ -10,20 +12,22 @@ function About() {
         <div className='title'>
           <span />
           <Polygon isSideSquare />
-          <h1>SOBRE</h1>
+          <h1>{TEXT.ABOUT}</h1>
         </div>
         <div className='description'>
-          <BorderedTextBox text='Olá! Sou Marcelo Canever, Freelancer, Motion Designer, ilustrador, diretor e coordenador de projetos audiovisuais.' />
+          <BorderedTextBox
+            text={TEXT.ABT1}
+            />
           <div className='secondary-text'>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conhecimentos em produção audio visuais e peças gráficas, desde as primeiras etapas de conceituais até a finalização do material.</p>
-            <p>Roteiro, Storyboard, Animatics, Concept Arts, Identidade Visual, Animação Tradicional, Motion Graphic, Edição, Pós-Produção, Edição de Audio/Sound effects.</p>
+            <p>{TEXT.ABT2}</p>
+            <p>{TEXT.ABT3}</p>
           </div>
         </div>
         <div className='knowledge-title'>
           <span />
           <div>
             <Polygon isSideSquare />
-            <h3>CONHECIMENTOS</h3>
+            <h3>{TEXT.KNOWLEDGE}</h3>
           </div>
           <span />
         </div>
@@ -36,7 +40,13 @@ function About() {
           <ProgressIndicator percentage={96} title={'PHOTOSHOP'} />
           <ProgressIndicator percentage={70} title={'ILLUSTRATOR'} />
         </div>
+        <div className='knowledge-description'>
+          <BorderedTextBox
+            text={TEXT.KNW1}
+          />
+        </div>
       </div>
+      <Experience/>
     </section>
   )
 }

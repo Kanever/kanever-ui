@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ExternalVideo from '../ExternalVideo/ExternalVideo'
 import Polygon from '../Polygon/Polygon'
 import MoreButton from '../MoreButton/MoreButton'
-import { VIDEO_TYPES, videos } from '../../utils/constants'
+import { VIDEO_TYPES, videos, TEXT } from '../../utils/constants'
 import './ExternalVideos.scss'
 
 function ExternalVideos() {
@@ -41,28 +41,28 @@ function ExternalVideos() {
     <div className='external-videos'>
       <div className='video-filter'>
         <div className='flex-center video-filter-left'>
-          <span>FILTRO</span><span />
+          <span>{TEXT.FILTER}</span><span />
           <ul>
             <li onClick={() => handleListClick(VIDEO_TYPES.MOTION_GRAPHICS)}>
               <span />
               <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.MOTION_GRAPHICS] ? '#DCDBD6' : 'none'} />
-              MOTION GRAPHICS
+              {TEXT.MOTION_GRAPHICS}
             </li>
             <li onClick={() => handleListClick(VIDEO_TYPES.WHITEBOARD)}>
               <span />
               <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.WHITEBOARD] ? '#DCDBD6' : 'none'} />
-              WHITEBOARD
+              {TEXT.WHITEBOARD}
             </li>
             <li onClick={() => handleListClick(VIDEO_TYPES.EDITIONS)}>
               <span />
               <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.EDITIONS] ? '#DCDBD6' : 'none'} />
-              EDI&Ccedil;&Otilde;ES
+              {TEXT.EDDITINGS}
             </li>
           </ul>
         </div>
         <div className='video-filter-right flex-center'>
           <div className='portfolio-description'>
-            <p>Confira alguns dos melhores e mais recentes trabalhos produzidos por mim, com parcerias e participações de outros profissionais e produtoras</p>
+            <p>{TEXT.PTF1}</p>
           </div>
           <span />
         </div>
@@ -71,7 +71,7 @@ function ExternalVideos() {
       <div className='videos'>
         {getVideos()}
       </div>
-      <MoreButton text='MAIS V&Iacute;DEOS' onClick={handleClick} />
+      <MoreButton text={TEXT.MORE_VIDEOS} onClick={handleClick} />
     </div>
   )
 }
