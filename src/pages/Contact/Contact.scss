@@ -40,6 +40,7 @@
       }
       & ul {
         padding: 0;
+        padding-right: 10%;
         list-style-type: none;
         z-index: 1;
         >li {
@@ -64,7 +65,7 @@
     border: 4px solid #FFD029;
     border-right: none;
     align-self: flex-end;
-    width: 390px;
+    width: 580px;
     min-height: 154px;
     margin-top: -173px;
   }
@@ -84,7 +85,7 @@
   }
 }
 
-@media (max-width: $xl) {
+@media (max-width: $xxl) {
   .contact {
     .contact-filter {
       .contact-filter-left {

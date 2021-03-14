@@ -10,7 +10,7 @@ function Illustrations() {
 
   function getImages() {
     return images
-      .map(({ full, thumb, alt }) => <Illustration full={full} thumb={thumb} alt={alt} />)
+      .map(({ full, thumb, alt }, i) => <Illustration key={i} full={full} thumb={thumb} alt={alt} />)
       .slice(0, nImages)
   }
 
