@@ -4,16 +4,6 @@ export const VIDEO_TYPES = {
   EDITIONS: 'ed'
 }
 
-export const BOX = {
-  KNOWLEDGE: 1,
-  EXP1: 1,
-  EXP2: 1,
-  EXP3: 1,
-  EXP4: 1,
-  EXP5: 1,
-  EXP6: 1
-}
-
 export const videos = [
   { title: 'Rick Astley - Never Gonna Give You Up', src: 'https://www.youtube.com/embed/dQw4w9WgXcQ', type: VIDEO_TYPES.MOTION_GRAPHICS },
   { title: 'Feira Organica', src: 'https://www.youtube.com/embed/gQrXbFw7wQs', type: VIDEO_TYPES.MOTION_GRAPHICS },

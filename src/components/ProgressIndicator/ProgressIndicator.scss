@@ -1,3 +1,5 @@
+@import '/src/index.scss';
+
 .progress-indicator-wrapper {
   display: flex;
   align-items: center;
@@ -18,7 +20,7 @@
     }
   }
 }
-@media (max-width: 546px) {
+@media (max-width: $sm) {
   .progress-indicator-wrapper {
     .progress-indicator {
       min-width: 180px;

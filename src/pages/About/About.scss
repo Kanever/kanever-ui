@@ -1,3 +1,5 @@
+@import '/src/index.scss';
+
 .about {
   display: flex;
   flex-direction: column;
@@ -89,7 +91,7 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: $md) {
   .about {
     .main-about {
       padding-left: 8%;

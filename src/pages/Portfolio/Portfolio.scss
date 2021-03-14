@@ -1,3 +1,5 @@
+@import '/src/index.scss';
+
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -68,7 +70,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: $sm) {
   .portfolio {
     .subtitle {
       padding-right: 0;

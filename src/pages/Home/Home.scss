@@ -1,3 +1,5 @@
+@import '/src/index.scss';
+
 .home {
   background: #FFD029;
   height: 1080px;
@@ -22,7 +24,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: $sm) {
   .home {
     h1 {
       margin-top: 70px;

@@ -1,3 +1,5 @@
+@import '/src/index.scss';
+
 .bordered-text-box {
   color: #939191;
   max-width: 427px;
@@ -15,7 +17,7 @@
     }
   }
 
-  @media (max-width: 705px) {
+  @media (max-width: $md) {
     div {
       margin-right: 0;
       padding-right: 0;

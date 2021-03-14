@@ -1,3 +1,5 @@
+@import '/src/index.scss';
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -68,7 +70,7 @@
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: $md) {
   .contact {
     .contact-filter {
       .contact-filter-left {
@@ -82,7 +84,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: $xl) {
   .contact {
     .contact-filter {
       .contact-filter-left {
