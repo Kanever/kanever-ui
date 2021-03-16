@@ -19,10 +19,14 @@ function Experience() {
           <div>
             <BorderedTextBox
               text={TEXT.EXP1}
-              yellowBoxStyle={{}}
+              yellowBoxStyle={{
+                padding: '3px 15px 15px 0'
+              }}
               greyBoxStyle={{
-                maxWidth: '500px',
-                minHeight: '255px'
+                maxWidth: '420px',
+                minHeight: '270px',
+                margin: '-25px 0 0 -35px',
+                paddingLeft: '35px'
               }}
             />
             <div className='content-branch'>
@@ -33,10 +37,14 @@ function Experience() {
           <div>
             <BorderedTextBox
               text={TEXT.EXP3}
-              yellowBoxStyle={{}}
+              yellowBoxStyle={{
+                padding: '2px 25px 20px 0'
+              }}
               greyBoxStyle={{
-                maxWidth: '360px',
-                minHeight: '165px'
+                maxWidth: '320px',
+                minHeight: '185px',
+                margin: '-30px 0 0 -30px',
+                paddingLeft: '15px'
               }}
             />
             <div className='content-branch'>
@@ -47,10 +55,14 @@ function Experience() {
           <div>
             <BorderedTextBox
               text={TEXT.EXP5}
-              yellowBoxStyle={{}}
+              yellowBoxStyle={{
+                padding: '15px 23px 23px 15px'
+              }}
               greyBoxStyle={{
-                maxWidth: '315px',
-                minHeight: '285px'
+                maxWidth: '255px',
+                minHeight: '300px',
+                margin: '-40px 0 0 -40px',
+                paddingLeft: '30px'
               }}
             />
             <div className='content-branch'>
@@ -67,10 +79,14 @@ function Experience() {
             </div>
             <BorderedTextBox
               text={TEXT.EXP2}
-              yellowBoxStyle={{}}
+              yellowBoxStyle={{
+                padding: '15px 20px 15px 20px'
+              }}
               greyBoxStyle={{
-                maxWidth: '300px',
-                minHeight: '190px'
+                maxWidth: '255px',
+                minHeight: '210px',
+                margin: '-40px 0 0 -40px',
+                paddingLeft: '10px'
               }}
             />
           </div>
@@ -81,10 +97,14 @@ function Experience() {
             </div>
             <BorderedTextBox
               text={TEXT.EXP4}
-              yellowBoxStyle={{}}
+              yellowBoxStyle={{
+                padding: '15px 15px 15px 25px'
+              }}
               greyBoxStyle={{
-                maxWidth: '615px',
-                minHeight: '200px'
+                maxWidth: '550px',
+                minHeight: '210px',
+                margin: '-40px -40px 0 0',
+                paddingRight: '25px'
               }}
             />
           </div>
@@ -95,16 +115,21 @@ function Experience() {
             </div>
             <BorderedTextBox
               text={TEXT.EXP6}
-              yellowBoxStyle={{}}
+              yellowBoxStyle={{
+                padding: '15px 15px 15px 25px'
+              }}
               greyBoxStyle={{
-                maxWidth: '445px',
-                minHeight: '155px'
+                maxWidth: '380px',
+                minHeight: '155px',
+                margin: '-40px -60px 0 0',
+                paddingRight: '40px'
               }}
             />
           </div>
         </div>
       </div>
       <div className='experience-bottom'>
+        <div><div/></div><span/>
       </div>
     </div>
   )
