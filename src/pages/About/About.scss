@@ -58,7 +58,7 @@
       >div {
         display: flex;
         align-items: center;
-        margin-bottom: -17px;
+        margin-bottom: -22px;
   
         >h3 {
           padding: 0 10px;
@@ -67,25 +67,39 @@
     }
   }
 
-  >span {
-    border-top: 4px solid #EDEDED;
-    max-width: 75%;
-    margin-top: -110px;
-    margin-bottom: 110px;
-  }
-
   .knowledge-wrapper {
-    margin-top: 100px;
-    padding-left: 19%;
     display: flex;
+    margin-top: -4px;
 
-    >div:nth-child(1){
+    .knowledge-indicator {
+      padding: 100px 60px 0 20%;
+      min-width: 495px;
       display: flex;
       flex-direction: column;
 
       >div:not(:last-child) {
         margin-bottom: 55px;
       }
+    }
+
+    .knowledge-description {
+      padding-top: 215px;
+      max-width: 80%;
+      .bordered-text-box {
+        >div {
+          display: flex;
+          align-items: flex-end;
+          p {
+            padding: 8px;
+          }
+        }
+      }
+    }
+
+    >span {
+      margin-top: 215px;
+      border-top: 4px solid #FFD029;
+      flex: 1;
     }
   }
 

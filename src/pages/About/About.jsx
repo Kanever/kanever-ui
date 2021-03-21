@@ -32,9 +32,8 @@ function About() {
           <span />
         </div>
       </div>
-      <span />
       <div className='knowledge-wrapper'>
-        <div>
+        <div className='knowledge-indicator'>
           <ProgressIndicator percentage={92} title={'AFTER EFFECTS'} />
           <ProgressIndicator percentage={85} title={'PREMIERE'} />
           <ProgressIndicator percentage={96} title={'PHOTOSHOP'} />
@@ -43,8 +42,18 @@ function About() {
         <div className='knowledge-description'>
           <BorderedTextBox
             text={TEXT.KNW1}
+            yellowBoxStyle={{
+              padding: '10px 10px 20px 25px'
+            }}
+            greyBoxStyle={{
+              maxWidth: '380px',
+              minHeight: '170px',
+              margin: '-35px -40px 0 0',
+              paddingRight: '25px'
+            }}
           />
         </div>
+        <span />
       </div>
       <Experience/>
     </section>

@@ -8,6 +8,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .thumb {
+    height: 250px;
+    object-fit: cover;
+  }
 }
 
 

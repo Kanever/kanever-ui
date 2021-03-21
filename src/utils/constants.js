@@ -42,18 +42,18 @@ export const videos = [
 
 export const images = [
   {
-    full: require('../images/full.jpg').default,
-    thumb: require('../images/full_tn.jpg').default,
+    full: 'https://i.pinimg.com/originals/4f/d5/1c/4fd51c87a4f722ecb132a7d8004bf953.jpg',
+    thumb: 'https://i.pinimg.com/originals/4f/d5/1c/4fd51c87a4f722ecb132a7d8004bf953.jpg',
     alt: 'Marcelo'
   },
   {
     full: require('../images/full.jpg').default,
-    thumb: require('../images/full_tn.jpg').default,
+    thumb: require('../images/full.jpg').default,
     alt: 'Marcelo'
   },
   {
     full: require('../images/full.jpg').default,
-    thumb: require('../images/full_tn.jpg').default,
+    thumb: require('../images/full.jpg').default,
     alt: 'Marcelo'
   },
   {

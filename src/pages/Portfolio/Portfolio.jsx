@@ -24,12 +24,21 @@ function Portfolio() {
       <div className='illustrations'>
         <div className='flex-center illustrations-title'>
           <div className='flex-center illustrations-title-left'>
-            <span/>
-            <Polygon isSideSquare/>
+            <span />
+            <Polygon isSideSquare />
             {TEXT.ILLUSTRATIONS}
           </div>
-          <BorderedTextBox text={TEXT.ILU1} />
-          <span/>
+          <BorderedTextBox text={TEXT.ILU1}
+            yellowBoxStyle={{
+              padding: '10px 10px 20px 25px'
+            }}
+            greyBoxStyle={{
+              maxWidth: '300px',
+              minHeight: '130px',
+              margin: '-35px -40px 0 0',
+              paddingRight: '35px'
+            }} />
+          <span />
         </div>
         <Illustrations />
       </div>

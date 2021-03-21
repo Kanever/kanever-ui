@@ -23,36 +23,38 @@ function Contact() {
       <div className='contact-filter'>
         <div className='flex-center contact-filter-left'>
           <span>{TEXT.INFORMATION}</span>
-          <span />
-          <ul>
-            <li>
-              <span />
-              <Polygon color='#DCDBD6' />
-              <div className='flex-center work-breaka-all'>
-                <BsEnvelope />
-                {TEXT.KAN_EMAIL}
-              </div>
-            </li>
-            <li>
-              <span />
-              <Polygon color='#DCDBD6' />
-              <div className='flex-center'>
-                <FiPhone />
-                {TEXT.KAN_PHONE}
-              </div>
-            </li>
-            <li>
-              <span />
-              <Polygon color='#DCDBD6' />
-              <div className='flex-center'>
-                <FaInstagram />
-                {TEXT.KAN_INSTA}
-              </div>
-            </li>
-          </ul>
+          <div className='contact-filter-list'>
+            <span />
+            <ul>
+              <li>
+                <span />
+                <Polygon color='#DCDBD6' />
+                <div className='flex-center work-breaka-all'>
+                  <BsEnvelope />
+                  {TEXT.KAN_EMAIL}
+                </div>
+              </li>
+              <li>
+                <span />
+                <Polygon color='#DCDBD6' />
+                <div className='flex-center'>
+                  <FiPhone />
+                  {TEXT.KAN_PHONE}
+                </div>
+              </li>
+              <li>
+                <span />
+                <Polygon color='#DCDBD6' />
+                <div className='flex-center'>
+                  <FaInstagram />
+                  {TEXT.KAN_INSTA}
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <span/>
+      <span />
     </section>
   )
 }
