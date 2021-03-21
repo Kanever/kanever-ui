@@ -24,8 +24,8 @@ function ExternalVideos() {
 
   function handleClick() {
     nVideos >= videos.length
-    ? alert('Sem mais videos disponíveis!')
-    : setNVideos(nVideos + 3)
+      ? alert('Sem mais videos disponíveis!')
+      : setNVideos(nVideos + 3)
   }
 
   function handleListClick(index) {
@@ -41,24 +41,27 @@ function ExternalVideos() {
     <div className='external-videos'>
       <div className='video-filter'>
         <div className='flex-center video-filter-left'>
-          <span>{TEXT.FILTER}</span><span />
-          <ul>
-            <li onClick={() => handleListClick(VIDEO_TYPES.MOTION_GRAPHICS)}>
-              <span />
-              <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.MOTION_GRAPHICS] ? '#DCDBD6' : 'none'} />
-              {TEXT.MOTION_GRAPHICS}
-            </li>
-            <li onClick={() => handleListClick(VIDEO_TYPES.WHITEBOARD)}>
-              <span />
-              <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.WHITEBOARD] ? '#DCDBD6' : 'none'} />
-              {TEXT.WHITEBOARD}
-            </li>
-            <li onClick={() => handleListClick(VIDEO_TYPES.EDITIONS)}>
-              <span />
-              <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.EDITIONS] ? '#DCDBD6' : 'none'} />
-              {TEXT.EDDITINGS}
-            </li>
-          </ul>
+          <span>{TEXT.FILTER}</span>
+          <div className='video-filter-list'>
+            <span />
+            <ul>
+              <li onClick={() => handleListClick(VIDEO_TYPES.MOTION_GRAPHICS)}>
+                <span />
+                <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.MOTION_GRAPHICS] ? '#DCDBD6' : 'none'} />
+                {TEXT.MOTION_GRAPHICS}
+              </li>
+              <li onClick={() => handleListClick(VIDEO_TYPES.WHITEBOARD)}>
+                <span />
+                <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.WHITEBOARD] ? '#DCDBD6' : 'none'} />
+                {TEXT.WHITEBOARD}
+              </li>
+              <li onClick={() => handleListClick(VIDEO_TYPES.EDITIONS)}>
+                <span />
+                <Polygon color='#DCDBD6' fill={videoTypesHash[VIDEO_TYPES.EDITIONS] ? '#DCDBD6' : 'none'} />
+                {TEXT.EDDITINGS}
+              </li>
+            </ul>
+          </div>
         </div>
         <div className='video-filter-right flex-center'>
           <div className='portfolio-description'>

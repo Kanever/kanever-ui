@@ -39,7 +39,9 @@
     & div:last-child  {
       flex-direction: column;
       justify-content: left;
-      gap: 20px;
+      > * {
+        margin-bottom: 25px;
+      }
     }
   }
 }

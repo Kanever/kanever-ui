@@ -1,6 +1,6 @@
 import { BsEnvelope } from 'react-icons/bs'
-import { FiPhone } from 'react-icons/fi'
 import { FaInstagram } from 'react-icons/fa'
+import { ImWhatsapp } from 'react-icons/im'
 import Polygon from "../../components/Polygon/Polygon"
 import BorderedTextBox from "../../components/BorderedTextBox/BorderedTextBox";
 import { TEXT } from '../../utils/constants'
@@ -29,26 +29,26 @@ function Contact() {
               <li>
                 <span />
                 <Polygon color='#DCDBD6' />
-                <div className='flex-center work-breaka-all'>
-                  <BsEnvelope />
+                <a className='flex-center contact-link word-break-all' href={`mailto:${TEXT.KAN_EMAIL}`}>
+                  <BsEnvelope className='contact-icon'/>
                   {TEXT.KAN_EMAIL}
-                </div>
+                </a>
               </li>
               <li>
                 <span />
                 <Polygon color='#DCDBD6' />
-                <div className='flex-center'>
-                  <FiPhone />
+                <a className='flex-center contact-link'href='https://wa.me/5511998904435' >
+                  <ImWhatsapp className='contact-icon'/>
                   {TEXT.KAN_PHONE}
-                </div>
+                </a>
               </li>
               <li>
                 <span />
                 <Polygon color='#DCDBD6' />
-                <div className='flex-center'>
-                  <FaInstagram />
+                <a className='flex-center contact-link' href='https://www.instagram.com/kanever.marcelo/'>
+                  <FaInstagram className='contact-icon'/>
                   {TEXT.KAN_INSTA}
-                </div>
+                </a>
               </li>
             </ul>
           </div>
