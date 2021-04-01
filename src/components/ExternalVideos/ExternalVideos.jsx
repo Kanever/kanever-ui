@@ -6,7 +6,8 @@ import { VIDEO_TYPES, videos, TEXT } from '../../utils/constants'
 import './ExternalVideos.scss'
 
 function ExternalVideos() {
-  const [nVideos, setNVideos] = useState(6)
+  const maxVideos = 6
+  const [nVideos, setNVideos] = useState(maxVideos)
   const [videoTypesHash, setVideoTypesHash] = useState({
     [VIDEO_TYPES.MOTION_GRAPHICS]: false,
     [VIDEO_TYPES.WHITEBOARD]: false,
@@ -24,8 +25,8 @@ function ExternalVideos() {
 
   function handleClick() {
     nVideos >= videos.length
-      ? alert('Sem mais videos disponíveis!')
-      : setNVideos(nVideos + 3)
+      ? alert(TEXT.ALERT_NO_MORE_VIDEOS)
+      : setNVideos(nVideos + maxVideos)
   }
 
   function handleListClick(index) {

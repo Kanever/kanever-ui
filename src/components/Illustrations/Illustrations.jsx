@@ -6,7 +6,8 @@ import { images, TEXT } from '../../utils/constants'
 import './Illustrations.scss'
 
 function Illustrations() {
-  const [nImages, setNImages] = useState(4)
+  const maxIllustrations = 8
+  const [nImages, setNImages] = useState(maxIllustrations)
 
   function getImages() {
     return images
@@ -16,8 +17,8 @@ function Illustrations() {
 
   function handleClick() {
     nImages >= images.length
-      ? alert('Sem mais imagens disponíveis!')
-      : setNImages(nImages + 4)
+      ? alert(TEXT.ALERT_NO_MORE_ILLUSTRATIONS)
+      : setNImages(nImages + maxIllustrations)
   }
 
   return (

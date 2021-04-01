@@ -11,37 +11,39 @@
       display: flex;
       padding-bottom: 12px;
 
-      > span {
+      >span {
         align-self: flex-end;
         height: 24px;
         margin: 0 -12px -12px 12px;
         border-left: 4px solid #FFD029;
       }
+
       >.polygon {
         margin-right: 5px;
         margin-left: -5px;
       }
     }
-  
+
     .description {
       border-left: 4px solid #FFD029;
       border-top: 4px solid #FFD029;
       margin-left: 12px;
-  
+
       .secondary-text {
         padding-left: 30px;
         padding-top: 30px;
         max-width: 427px;
         min-height: 300px;
-        > p {
+
+        >p {
           margin-bottom: 0;
         }
       }
     }
-  
+
     .knowledge-title {
       display: flex;
-  
+
       >span:nth-of-type(1) {
         border-left: 4px solid #FFD029;
         border-bottom: 4px solid #FFD029;
@@ -49,17 +51,17 @@
         margin-right: -2px;
         margin-left: 12px;
       }
-  
+
       >span:nth-of-type(2) {
         border-bottom: 4px solid #EDEDED;
         flex-grow: 1;
       }
-  
+
       >div {
         display: flex;
         align-items: center;
         margin-bottom: -22px;
-  
+
         >h3 {
           padding: 0 10px;
         }
@@ -69,11 +71,12 @@
 
   .knowledge-wrapper {
     display: flex;
+    flex-wrap: wrap;
     margin-top: -4px;
+    padding-left: 20%;
 
     .knowledge-indicator {
-      padding: 100px 60px 0 20%;
-      min-width: 495px;
+      padding: 100px 60px 0 0;
       display: flex;
       flex-direction: column;
 
@@ -85,10 +88,12 @@
     .knowledge-description {
       padding-top: 215px;
       max-width: 80%;
+
       .bordered-text-box {
         >div {
           display: flex;
           align-items: flex-end;
+
           p {
             padding: 8px;
           }
@@ -110,20 +115,28 @@
     .main-about {
       padding-left: 8%;
       padding-right: 3%;
+    }
+
+    .knowledge-title {
+      >span:nth-of-type(1) {
+        min-width: 5%;
       }
-      .knowledge-title {
-        >span:nth-of-type(1) {
-          min-width: 5%;
-        }
+    }
+
+    .knowledge-wrapper {
+      margin-top: 80px;
+      
+      .knowledge-indicator {
+        padding-right: 0;
+      }
+      .knowledge-description{
+        padding-top: 90px;
+      }
     }
 
     >span {
       margin-top: -40px;
       margin-bottom: 40px;
-    }
-
-    .knowledge-wrapper {
-      padding-left: 5%;
     }
   }
 }
