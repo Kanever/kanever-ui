@@ -45,7 +45,7 @@ function Contact() {
               <li>
                 <span />
                 <Polygon color='#DCDBD6' />
-                <a className='flex-center contact-link' href='https://www.instagram.com/kanever.marcelo/'>
+                <a className='flex-center contact-link' href='https://www.instagram.com/follow.kanever/'>
                   <FaInstagram className='contact-icon'/>
                   {TEXT.KAN_INSTA}
                 </a>
