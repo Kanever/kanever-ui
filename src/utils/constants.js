@@ -124,7 +124,7 @@ export const images = [
   },
   {
     full: 'https://i.pinimg.com/originals/e8/28/a9/e828a931f89a947c49f2cf344dfdf21e.jpg',
-    thumb: 'Xhttps://i.pinimg.com/originals/e8/28/a9/e828a931f89a947c49f2cf344dfdf21e.jpg',
+    thumb: 'https://i.pinimg.com/originals/e8/28/a9/e828a931f89a947c49f2cf344dfdf21e.jpg',
     alt: 'Toskats'
   },
   {
