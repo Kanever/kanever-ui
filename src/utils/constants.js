@@ -233,7 +233,7 @@ const paragraph = '\xa0\xa0\xa0\xa0\xa0'
 export const TEXT = {
   KANEVER: 'KANEVER',
   ABOUT: 'SOBRE',
-  ABT1: 'Olá! Sou Marcelo Canever, Freelancer, Motion Designer, ilustrador, diretor e coordenador de projetos audiovisuais.',
+  ABT1: 'Olá! Sou Marcelo Canever, Animador, Motion Designer, ilustrador, diretor e coordenador de projetos audiovisuais.',
   ABT2: `${paragraph}Conhecimentos em produção audio visuais e peças gráficas, desde as primeiras etapas de conceituais até a finalização do material`,
   ABT3: 'Roteiro, Storyboard, Animatics, Concept Arts, Identidade Visual, Animação Tradicional, Motion Graphic, Edição, Pós-Produção, Edição de Audio/Sound effects.',
   KNOWLEDGE: 'CONHECIMENTOS',
